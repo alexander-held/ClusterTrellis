@@ -9,7 +9,8 @@ setuptools.setup(
     author="",
     author_email="sm4511@nyu.edu",
     license="MIT",
-    packages=setuptools.find_packages(),
+    packages=setuptools.find_packages(where="src"),
+    package_dir={"": "src"},
     zip_safe=False,
     classifiers=[
         "Programming Language :: Python :: 3",

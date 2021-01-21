@@ -3,7 +3,7 @@ import itertools
 import string
 import numpy as np
 import logging
-from utils import get_logger
+from .utils import get_logger  # need relative import here
 logger = get_logger(level=logging.WARNING)
 
 
